@@ -4,7 +4,7 @@ import {constants} from "../constant/Constants";
 export class Player {
     private readonly _name: string;
     private _team: string = constants.defaultTeam;
-    private _contractPeriodMonth: number = 0;
+    private _contractPeriodMonth: number = constants.defaultContractPeriod;
     private _agent : Agent | undefined;
 
     constructor(name: string) {

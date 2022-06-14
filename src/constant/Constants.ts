@@ -1,3 +1,4 @@
 export const constants = {
-    defaultTeam : 'FA'
+    defaultTeam : 'FA',
+    defaultContractPeriod : 0
 }
