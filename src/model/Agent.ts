@@ -1,7 +1,7 @@
 import {constants} from "../constant/Constants";
 
 export class Agent {
-    private readonly _name : string = constants.defaultTeam;
+    private readonly _name : string = constants.DEFAULT_TEAM;
 
     constructor(name: string) {
         this._name = name;

@@ -3,8 +3,8 @@ import {constants} from "../constant/Constants";
 
 export class Player {
     private readonly _name: string;
-    private _team: string = constants.defaultTeam;
-    private _contractPeriodMonth: number = constants.defaultContractPeriod;
+    private _team: string = constants.DEFAULT_TEAM;
+    private _contractPeriodMonth: number = constants.DEFAULT_CONTRACT_PERIOD;
     private _agent : Agent | undefined;
 
     constructor(name: string) {
@@ -21,7 +21,7 @@ export class Player {
     }
 
     leave() {
-        this._team = constants.defaultTeam;
+        this._team = constants.DEFAULT_TEAM;
     }
 
     extendContract(periodMonth : number) {
